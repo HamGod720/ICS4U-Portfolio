@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-image: url('https://images.unsplash.com/photo-1561344640-2453889cde5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3liZXJwdW5rfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+}
+
+.top {
+	overflow: hidden;
+	backdrop-filter: blur(10px);
+}
+
+.top a {
+	float: left;
+	display: block;
+	color: #ff0080;
+	text-align: center;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'DO Futuristic', sans-serif;
+    ;
+}
+
+.top a:hover {
+    backdrop-filter: blur(10px);
+    	color: rgb(255, 255, 255);
+}
+
+.intro {
+	text-align: center;
+	color: #f2f2f2;
+	font-family: Monaco, monospace;
+	padding: 10px;
+	margin-right: 100px;
+	margin-left: 100px;
+	font-size: 1.8em;
+}
+
+.modules {
+	padding: 30px;
+	font-size: 1.50em;
+	color: #ffffff;
+	text-align: center;
+	font-family: Monaco, monospace;
+}
+
+.module {
+	backdrop-filter: blur(10px);
+	color: rgb(255, 255, 255);
+	text-align: left;
+  	padding: 25px;
+  	float: left;
+	width: 100%;
+}
+
+.module h3 {
+	font-family: Monaco, monospace;
+	font-size: 1.5em;
+}
+
+.module p {
+	overflow: hidden;
+}
+
+.project {
+	background-color: #ff0080;
+	color: #f2f2f2;
+	padding: 16px;
+	text-decoration: none;
+	float: left;
+}
+
+#pics {
+	float: left;
+	margin-right: 10px;
+	margin-top: 40px;
+	border: 5px solid #ff0080;
+	width: 400px;
+}
